@@ -8,6 +8,7 @@ def banner():
 		   \ \  / /\ \  / /   #======   ##    ##   / /  \ \/ /  \ \   #====== 
 		    \ \/ /  \ \/ /    #      #  ##    ##  / /    ####    \ \  #      #
 		     ####    ####     =======     ####    ##              ##  =======
+                           By:Mrkaalv
 		''')
 def main():
 	driver = webdriver.Chrome(ChromeDriverManager().install()) #2nd change
