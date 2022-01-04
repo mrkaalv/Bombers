@@ -18,6 +18,7 @@ rc = Fore.CYAN
 ry = Fore.YELLOW
 # vars_______________________________________
 x = 6
+extra = "endi undo daa ninakk bomb idaaan"
 modes = 3
 v = "1.2.5"
 run = True
@@ -50,15 +51,19 @@ err = (rr + ' _________________________________________________________ \n'
 def error(value, result, ver):  # errors: easy moding
     if value == 1:
         print('FileError: %1s file not found!' % result)
+              print(extra)
 
     elif value == 2:
         print('NumError: %1s not a number!' % result)
+                print(extra)
 
     elif value == 3:
         print('IndexError: index out of range!')
+                print(extra)
 
     elif value == 4:
         print('TypeError: %1s is not 1 - %1s!' % (result, ver))
+                print(extra)
 
     else:
         print('ListError: Error not found! correct def error()')
